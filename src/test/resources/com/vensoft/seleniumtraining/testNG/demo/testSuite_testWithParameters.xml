@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <parameter name="userName" value="" />
+  <parameter name="passwd" value="" />
+  <parameter name="expectedTitle" value="Sign-on:" />
+  
+  <test name="Test_invalid_signon">
+	  <parameter name="userName" value="invalid" />
+	  <parameter name="passwd" value="invalid" />
+    <classes>
+      <class name="com.vensoft.seleniumtraining.testNG.demo.Demo2_TestNGWithParameters"/>
+    </classes>
+  </test>
+  
+  <test name="Test_invalid_signon2">
+	<classes>
+      <class name="com.vensoft.seleniumtraining.testNG.demo.Demo2_TestNGWithParameters"/>
+    </classes>
+  </test>
+  
+    <test name="Test_valid_signon">
+	  <parameter name="userName" value="tutorial" />
+	  <parameter name="passwd" value="tutorial" />
+	   <parameter name="expectedTitle" value="Flight" />
+   <classes>
+      <class name="com.vensoft.seleniumtraining.testNG.demo.Demo2_TestNGWithParameters"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+</suite> <!-- Suite -->

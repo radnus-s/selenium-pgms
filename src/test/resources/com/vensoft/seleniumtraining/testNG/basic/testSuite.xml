@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="A">
+    <classes>
+      <class name="com.vensoft.seleniumtraining.testNG.basic.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="B">
+    <classes>
+      <class name="com.vensoft.seleniumtraining.testNG.basic.Test1"/>
+      <class name="com.vensoft.seleniumtraining.testNG.basic.Test2"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

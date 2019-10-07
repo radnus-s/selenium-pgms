@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <parameter name="browser" value="chrome" />
+  <test name="amazon_chrome">
+   <classes>
+      <class name="com.vensoft.seleniumtraining.testNG.demo.Demo3"/>
+    </classes>
+  </test>
+  
+  <test name="amazon_firefox">
+  <parameter name="browser" value="firefox" />
+   <classes>
+      <class name="com.vensoft.seleniumtraining.testNG.demo.Demo3"/>
+    </classes>
+  </test>
+   
+  
+  
+  
+</suite> <!-- Suite -->
